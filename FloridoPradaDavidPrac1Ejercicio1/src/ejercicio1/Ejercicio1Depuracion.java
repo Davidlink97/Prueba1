@@ -9,11 +9,12 @@ public class Ejercicio1Depuracion {
 	public static void main(String[] args) {
 		
 		int numero, suma=0, contador;
-		
+
+		System.out.println("Hola mundo");
 		
 		for ( contador=1; contador <= CANTIDAD; contador ++) {
 			
-			System.out.println("Introduzca un numero "+ contador + " de " + CANTIDAD);
+			System.out.println("Introduzca un NUMERO "+ contador + " de " + CANTIDAD);
 			numero = Integer.parseInt(teclado.nextLine());
 			
 			if (numero > 10){
@@ -22,7 +23,7 @@ public class Ejercicio1Depuracion {
 			
 		}
 		
-		System.out.println("La suma de los numeros positivos " + suma);
+		System.out.println("La suma de los numeros POSITIVOS " + suma);
 
 
 	}
