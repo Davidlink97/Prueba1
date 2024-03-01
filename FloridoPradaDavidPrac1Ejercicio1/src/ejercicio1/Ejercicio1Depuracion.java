@@ -22,7 +22,7 @@ public class Ejercicio1Depuracion {
 			
 		}
 		
-		System.out.println("La suma de los numeros aa POSITIVOS " + suma);
+		System.out.println("La suma de los numeros positivos " + suma);
 
 
 	}
